@@ -14,7 +14,7 @@ A reward of +0.1 is provided for a robot arm to reach the specific location guid
 
 The robot-arm state space has 33 dimensions and contains the robot-arm's position, rotation, velocity, and angular velocities. Given this information, the agent has to learn how to contro the robot-arm's joints. Four continuous actions are available with the range of [-1, 1]
 
-To improve the reliability of the agent training, the task is configured with 20 agents. As a result, the agent will observe 20 x 24 states and order 20 x 4 actions. The codes in the notebook will train an agent to achieve an average score of +30 of 20 agents over 100 consecutive episodes by using DDPG algorithm.
+To improve the reliability of the agent training, the task is configured with 20 agents. As a result, the agent will observe 20 x 33 states and order 20 x 4 actions. The codes in the notebook will train an agent to achieve an average score of +30 of 20 agents over 100 consecutive episodes by using DDPG algorithm.
 
 
 ## Getting Started
